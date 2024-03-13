@@ -15,11 +15,9 @@
 
 #include "Kmer.h"
 
-Kmert::Kmer(int k)(
-        //implementar
-        )
-        
-        int Kmer::getK() const(
+Kmer::Kmer(int k) {//implementar
+    
+}
         
         
-        )
+       
