@@ -70,7 +70,10 @@ int main(int argc, char* argv[]) {
     // Obtain the complementary kmers and turn them into lowercase
 
     // Show the list of kmers and complementary kmers as in the example
-    
+    Kmer kmer("ACGTacgtAs");
+    kmer.normalize(VALID_NUCLEOTIDES);
+    Kmer complementary = kmer.complementary(VALID_NUCLEOTIDES,COMPLEMENTARY_NUCLEOTIDES);
+    cout<<complementary.toString();
     return 0;
 }
 
